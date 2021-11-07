@@ -66,7 +66,7 @@ li a {
     padding-left: 30px;
   }
 .jumbotron-img{
-    width: 100%;
+    width: 110%;
 }
 .container-text {
     width: 36%;
@@ -80,7 +80,11 @@ li a {
 p{
     padding: 10px 0;
 }
-.button-jumbotron{
+h3{font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.button-jumbotron,.button-section{
     padding: 3px 20px;
     background-color: #0061ff;
     text-align: center;
@@ -91,3 +95,124 @@ p{
 .arrow-jumbotron{
     
 }
+/* ---------SECTION-1------- */
+.container-section{
+ margin:0 auto;
+ width: 1000px;
+ /* border:1px solid black; */
+}
+.form{
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 60px auto;
+    /* border: 1px solid black; */
+}
+section a{
+    color: darkcyan;
+}
+h2 {
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 1.2;
+    padding: 20px 0;
+}
+input {
+    appearance: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50%;
+}
+.radio {
+    padding-right: 20px;
+    
+}
+  
+input:checked {
+    appearance: none;
+    border: 3px solid #0061ff;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.blocco-uno,.blocco-tre{
+    width: 29%;
+    border:1px solid black;
+    padding-left: 15px;
+    
+}
+.button-section{
+    
+    
+    margin:20px auto;
+}
+  
+.blocco-due {
+    width: 310px;
+    margin: 0 50px;
+    border:1px solid black;
+    padding-left: 15px;
+}
+.col-blocco{
+    margin-top:50px;
+    height: 900px;
+
+}
+.title-blocco {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  }
+.singolo::before{
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 400;
+    content: "\f007";
+    padding-right: 10px;
+}
+.team::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-weight: 400;
+    content: "\f1ad";
+    padding-right: 10px;
+}
+.prezzo {
+    font-weight: bolder;
+}
+.opacity {
+    opacity: 0.5;
+}
+.type-rate {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+}
+hr {
+    width: 50px;
+    margin: 20px 0;
+    background: black;
+    border: none;
+    height: 1px;
+  }
+
+  ul li {
+    padding: 10px 0;
+  }
+  
+  ul li::before {
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    font-weight: 700;
+    content: "\f00c";
+    padding-right: 8px;
+    color: #3cff00d5;
+  }
+.form{
+    margin-bottom: 20px;
+}
+
+  .testo-blocco{
+      padding: 8px 0;
+  }
