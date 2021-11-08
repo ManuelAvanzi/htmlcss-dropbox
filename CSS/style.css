@@ -68,7 +68,7 @@ li a {
 .jumbotron{
     width: 100%;
     height: 580px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     background-color: #add1ea;
 }
 .jumbo-container-title{
@@ -103,8 +103,9 @@ li a {
 }
 /* ----------SECTION-------- */
 .section-container{
-    margin-top:50px;
-    width: 1000px;
+    
+    padding: 100px 0;
+    width: 900px;
     height: 1000px;
     margin:auto;
     
@@ -144,7 +145,8 @@ label{
 /* ---------SECTION-DUE---------- */
 .section-due-container{
     margin-top:50px;
-    width: 1000px;
+    width: 900px;
+    padding: 100px 0;
     height: 430px;
     margin:auto;
     
@@ -174,22 +176,24 @@ label{
 }
 /* --------SECTION TRE----- */
 .section-tre-container{
-    padding-top:20px;
+    padding: 100px 0;
+    width: 900px;
     margin-top:50px;
-    width: 1000px;
     height: 1100px;
     margin:auto;   
 }
 .section-tre-img{
     width: 100%;
-   
 }
 /* -------SECTION-QUATTRO----- */
 .section-quattro-container{
-    padding-top:20px;
+    padding: 100px 0;
+    width: 900px;
     margin-top:50px;
-    width: 1000px;
     margin:auto;   
+}
+.section-quattro-container>a{
+    color: #1370ff;
 }
 .section-large{
     width: 100%;
@@ -281,7 +285,7 @@ hr{
     background: rgb(149, 192, 255);
     height: 300px;
     padding: 100px 220px;
-    margin-bottom:300px;
+    
 }
   
 .cta>h1 {
@@ -305,3 +309,19 @@ hr{
     border-style: none;
 }
   
+/* ---------DOMANDE------- */
+
+.container-domande{
+    margin:0 auto;
+    padding: 100px 0;
+    width: 900px;
+}
+.large-hr{
+    width: 100%;
+    background-color: rgba(238,238,239,255);
+    margin:20px 0;
+}
+.container-domande>p{
+    font-weight: bold;
+    font-size: 13px;
+}
