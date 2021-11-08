@@ -107,7 +107,7 @@ li a {
     width: 1000px;
     height: 1000px;
     margin:auto;
-    border:1px solid black;
+    
 }
 .section-container>h1{
     margin:20px 0;
@@ -147,7 +147,7 @@ label{
     width: 1000px;
     height: 430px;
     margin:auto;
-    border:1px solid green;
+    
 }
 .section-due-img-container{
     float: left;
@@ -178,11 +178,130 @@ label{
     margin-top:50px;
     width: 1000px;
     height: 1100px;
-    margin:auto;
-    
-    
+    margin:auto;   
 }
 .section-tre-img{
     width: 100%;
    
 }
+/* -------SECTION-QUATTRO----- */
+.section-quattro-container{
+    padding-top:20px;
+    margin-top:50px;
+    width: 1000px;
+    margin:auto;   
+}
+.section-large{
+    width: 100%;
+    height: 360px;
+    background-color: crimson;
+    margin-bottom:0px;
+}
+.square-lateral{
+    float: left;
+    width: 25%;
+    height: 360px;
+    background-color: darkblue;
+}
+.square-middle{
+    width: 50%;
+    float: left;
+    padding: 30px;
+    height: 360px;
+   
+    background-color: #f5f5f5;
+}
+.box{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+/* caselle laterali e immagini */
+.A{
+  background: url("../img/designit.svg")no-repeat center center;;
+  background-color: #94d595;
+  background-size: 50% 50%;
+  border: 10px solid #caeacb;
+}
+.B{
+    background: url("../img/arizona_state_university.svg")no-repeat center center;
+    background-color:#6b002b;
+    background-size: 50% 50%;
+}
+.C{
+    background: url("../img/university_of_florida.svg") no-repeat center center;
+    background-color:#0096d3;
+    background-size: 50% 10%;
+}  
+.D{
+    background: url("../img/topps.svg") no-repeat center center;
+    background-color:#ff0000;
+    background-size: 50% 50%;
+}
+.E{
+    background: url("../img/world_bicycle_relief.svg") no-repeat center center;
+    background-color:#e90006;
+    background-size: 50% 50%;
+}
+.F{
+    background: url("../img/hearst_corp.svg") no-repeat center center;
+    background-color:#add1ea ;
+    background-size: 50% 50%;
+}  
+.G{
+    background: url("../img/lonely_planet.svg") no-repeat center center;
+    background-color: #022486;
+    background-size: 50% 50%;
+}
+.H{
+    background: url("../img/clear_channel.svg") no-repeat center center;
+    background-color: #ffd600;
+    background-size: 50% 50%;
+}
+.middle-img{
+  width: 100px;  
+}
+hr{
+    margin:30px 0;
+    width:40px;
+    background-color: rgba(169, 169, 169, 0.678);
+}
+.square-middle-text{
+    font-size: 15px;
+    margin:30px auto;
+    font-weight:normal;
+    margin-bottom: 20px;
+}
+
+/* ----------------CTA----------- */
+
+.jumbo-cta{
+    width: 100%;
+    background: rgb(149, 192, 255);
+    height: 300px;
+    padding: 100px 220px;
+    margin-bottom:300px;
+}
+  
+.cta>h1 {
+    color: rgb(69, 4, 82);
+}
+.cta{
+    float: left;
+    width: 400px;
+}
+.cta-button-container{
+    text-align: center;
+    width: 400px;
+    float: left;
+    margin-left:100px;
+}
+
+.cta-button{
+    width: 230px;
+    padding:5px 20px;
+    background-color: white;
+    border-style: none;
+}
+  
