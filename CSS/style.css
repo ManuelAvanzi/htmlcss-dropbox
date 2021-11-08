@@ -119,7 +119,11 @@ label{
 .section-raw{
     width: 1000px;
     height:1000px;
-    
+}
+.section-raw:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 .section-col{
     margin-top: 40px;
@@ -136,4 +140,36 @@ label{
 }
 .col-right{
     float: right;
+}
+/* ---------SECTION-DUE---------- */
+.section-due-container{
+    margin-top:50px;
+    width: 1000px;
+    height: 430px;
+    margin:auto;
+    
+   
+}
+.section-due-img-container{
+    float: left;
+    width: 50%;
+}
+.partner-img{
+    width: 100%;
+}
+.section-due-text-container{
+    padding-top:30px;
+    padding-left: 30px;
+    float: right;
+    width: 50%;
+}
+.section-due-title{
+    font-size: 30px;
+}
+.section-due-text{
+    font-weight: lighter;
+}
+.button-partner{
+    padding:4px 15px;
+    background-color: honeydew;
 }
