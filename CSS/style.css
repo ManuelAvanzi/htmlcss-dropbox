@@ -118,7 +118,7 @@ label{
 /* tre colonne */
 .section-raw{
     width: 1000px;
-    height:1000px;
+    height:500px;
 }
 .section-raw:after {
     content: "";
@@ -129,8 +129,8 @@ label{
     margin-top: 40px;
     float: left;
     width: calc(100% / 3 - 32px);
-    height:700px;
-    background-color:pink;
+    height:360px;
+    
 }
 .col-left{
   margin-right:2px;
@@ -147,8 +147,7 @@ label{
     width: 1000px;
     height: 430px;
     margin:auto;
-    
-   
+    border:1px solid green;
 }
 .section-due-img-container{
     float: left;
@@ -172,4 +171,18 @@ label{
 .button-partner{
     padding:4px 15px;
     background-color: honeydew;
+}
+/* --------SECTION TRE----- */
+.section-tre-container{
+    padding-top:20px;
+    margin-top:50px;
+    width: 1000px;
+    height: 1100px;
+    margin:auto;
+    
+    
+}
+.section-tre-img{
+    width: 100%;
+   
 }
