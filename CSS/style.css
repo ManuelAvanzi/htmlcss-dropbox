@@ -58,9 +58,10 @@ p{
 .navbar ul,.navbar li{
     display: inline-block;
 }
-li a {
+
+.navbar>li,a {
     text-decoration: none;
-    color: #000;
+    color: black;
 }
 
 /* ---------JUMBOTRON-------- */
@@ -346,31 +347,38 @@ footer{
     background-color: black;
     width: 100%;
     height: 400px;
-    padding-top: 80px;  
+    padding: 70px;  
 }
-
-footer>h3{
+.footer-list-box{
+    margin:0 20px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    
     color:white;
-    margin-bottom:10px;
 }
-
-footer>ul{
-    margin:0 55px;
+.footer-list-box>h4{
+    color:white;
+    margin:20px;    
+}
+.footer-list-box>ul{
+    list-style: none;
     color:white;
     float: left;
-    list-style: none;
 }
 
-footer>li{
+.footer-list-box>li{
     color:white;
     font-weight: lighter;
+    font-size: 12px;
 }
+
 .footer-hr{
     width: 40px;
     color:white;
-    margin:250px 55px 20px 55px;
+    margin:250px 0px 20px 20px;
 }
 footer>span{
     color:white;
-    margin:0 55px;
+    margin-left:20px;
 }
