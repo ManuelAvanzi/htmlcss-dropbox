@@ -81,7 +81,7 @@ li a {
   font-weight: bolder;
   padding: 40px 0;
 }
-.raw-jumbo{
+.row-jumbo{
     width: 1150px;
     margin:0 auto;
 }
@@ -117,11 +117,11 @@ label{
     margin-right: 15px;
 }
 /* tre colonne */
-.section-raw{
+.section-row{
     width: 1000px;
     height:500px;
 }
-.section-raw:after {
+.section-row:after {
     content: "";
     display: table;
     clear: both;
