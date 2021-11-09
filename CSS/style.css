@@ -106,7 +106,6 @@ p{
 .jumbo-img{
     width: 95%;
 }
-
 .raw-jumbo::after{
     display: table;
     content:"";
@@ -161,7 +160,7 @@ section {
   
 .blocco-1, .blocco-2, .blocco-3 {
     width: calc(33.33% - 33.33px);
-    border:1px solid rgba(84, 82, 82, 0.439);
+    
 }
 .blocco-2 {
     margin: 0 50px;
@@ -169,6 +168,7 @@ section {
 .col-interna {
     height: 850px;
     border: 1px solid rgba(128, 128, 128, 0.652);
+    margin-bottom:50px;
 }
 .col-interna .singoloteam {
     text-align: center;
@@ -201,7 +201,7 @@ section {
     font-size: 13px;
     color:white;
     margin:10px;
-  }
+}
 .col-interna .col-text .bolder, .col-interna .col-text   {
     padding-bottom: 15px;
     font-size: 15px;
@@ -293,6 +293,8 @@ section {
     padding:4px 15px;
     background-color: honeydew;
 }
+
+
 /* --------SECTION TRE----- */
 .section-tre-container{
     padding: 100px 10px;
@@ -456,7 +458,7 @@ hr{
 /* -------------FOOTER------------ */
 
 footer{
-    background-color: gray;
+    background-color: black;
     width: 100%;
     height: 400px;
     padding: 70px;  
@@ -465,7 +467,7 @@ footer{
     margin:0 20px;
     width: 200px;
     height: 200px;
-    background-color: gray;
+    background-color: black;
     
     color:white;
 }
